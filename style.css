@@ -1,0 +1,100 @@
+div
+{
+    /* padding: 10px; */
+}
+
+html, body
+{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: rgb(234, 234, 234);
+}
+
+.hoeportfolio
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.header
+{
+    height: 75px;
+    background-color:#E3E3E3;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-text-container {
+    display: flex;
+    justify-content: flex-end;  /* Aligns content to the right */
+    gap: 40px;                  /* Equal spacing between items */
+    padding-right: 20px; 
+    font-family: 'inter', sans-serif; 
+    font-weight: 400;
+  }
+  
+
+.hero
+{
+    height: 300px;
+    background-color:lightgray; 
+    padding: 40px;
+    font-family: 'inter', sans-serif;
+    font-size: 28px;
+
+}
+
+.button
+{
+    background-color: #FFD061;
+    color: rgb(26, 26, 26);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  
+  .my-button:hover {
+    background-color: #f49426;
+  }
+
+.invisiblebox1
+{
+    margin: 20px;
+    height: 300px;
+    background-color:#f2f2f2; 
+}
+
+.yellowbox
+{
+    height: 300px;
+    background-color:#FFD061; 
+    width: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.yellowbox:hover {
+    background-color: #f49426;
+    outline-color: black;
+}
+
+.invisiblebox2
+{
+    margin: 20px;
+    height: 300px;
+    background-color:#f2f2f2; 
+}
+
+.invisiblebox3
+{
+    margin: 20px;
+    height: 300px;
+    background-color:#f2f2f2; 
+}
